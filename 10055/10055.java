@@ -1,16 +1,16 @@
 import java.util.Scanner;
- class Main {
- 
+class Main 
+{
     public static void main(String[] args) {
-      Scanner in=new Scanner (System.in);
-      while(in.hasNext())
+      Scanner input = new Scanner (System.in);
+      while(input.hasNext())
       {
-          long a=in.nextLong();
-          long b=in.nextLong();
-          if(a>b)
-              System.out.println(a-b);
+          long num1=input.nextLong();
+          long num2=input.nextLong();
+          if(num1>num2)
+              System.out.println(num1-num2);
           else
-              System.out.println(b-a);
+              System.out.println(num1-num2);
  
       }
     }
